@@ -1,11 +1,6 @@
 from datetime import date
 
 
-#####
-#
-# COPY YOUR CODE FROM LEVEL 1 BELOW
-#
-#####
 class Assessment:
     def __init__(self, name: str, type: str, score: float):
         valid_types = ["multiple-choice", "technical", "presentation"]
@@ -53,11 +48,6 @@ class Trainee:
             if assessment.type == type:
                 matching_assessments.append(assessment)
         return matching_assessments
-#####
-#
-# COPY YOUR CODE FROM LEVEL 1 ABOVE
-#
-#####
 
 
 class MultipleChoiceAssessment(Assessment):
