@@ -1,25 +1,21 @@
 ============================= test session starts ==============================
 platform linux -- Python 3.14.3, pytest-9.0.2, pluggy-1.6.0
 rootdir: /home/runner/work/Assessment-Fundamentals-Week-2/Assessment-Fundamentals-Week-2
-collected 0 items / 3 errors
+collected 9 items / 2 errors
 
-!!!!!!!!!!!!!!!!!!! Interrupted: 3 errors during collection !!!!!!!!!!!!!!!!!!!!
-============================== 3 errors in 0.19s ===============================
+!!!!!!!!!!!!!!!!!!! Interrupted: 2 errors during collection !!!!!!!!!!!!!!!!!!!!
+============================== 2 errors in 0.18s ===============================
 ************* Module task_one
 Level-1/task_one.py:1:0: C0114: Missing module docstring (missing-module-docstring)
 Level-1/task_one.py:4:0: C0115: Missing class docstring (missing-class-docstring)
-Level-1/task_one.py:14:4: C0116: Missing function or method docstring (missing-function-docstring)
-Level-1/task_one.py:4:0: R0903: Too few public methods (1/2) (too-few-public-methods)
-Level-1/task_one.py:23:14: E1120: No value for argument 'assessments' in constructor call (no-value-for-parameter)
-Level-1/task_one.py:26:4: E1101: Instance of 'Trainee' has no 'add_assessment' member (no-member)
-Level-1/task_one.py:26:27: E0602: Undefined variable 'Assessment' (undefined-variable)
-Level-1/task_one.py:28:4: E1101: Instance of 'Trainee' has no 'add_assessment' member (no-member)
-Level-1/task_one.py:28:27: E0602: Undefined variable 'Assessment' (undefined-variable)
-Level-1/task_one.py:30:4: E1101: Instance of 'Trainee' has no 'add_assessment' member (no-member)
-Level-1/task_one.py:30:27: E0602: Undefined variable 'Assessment' (undefined-variable)
-Level-1/task_one.py:31:10: E1101: Instance of 'Trainee' has no 'get_assessment' member (no-member)
-Level-1/task_one.py:32:10: E1101: Instance of 'Trainee' has no 'get_assessment' member (no-member)
-Level-1/task_one.py:33:10: E1101: Instance of 'Trainee' has no 'get_assessment' member (no-member)
+Level-1/task_one.py:4:0: R0903: Too few public methods (0/2) (too-few-public-methods)
+Level-1/task_one.py:8:0: C0115: Missing class docstring (missing-class-docstring)
+Level-1/task_one.py:18:4: C0116: Missing function or method docstring (missing-function-docstring)
+Level-1/task_one.py:25:4: C0116: Missing function or method docstring (missing-function-docstring)
+Level-1/task_one.py:30:14: E1120: No value for argument 'assessments' in constructor call (no-value-for-parameter)
+Level-1/task_one.py:38:10: E1101: Instance of 'Trainee' has no 'get_assessment' member (no-member)
+Level-1/task_one.py:39:10: E1101: Instance of 'Trainee' has no 'get_assessment' member (no-member)
+Level-1/task_one.py:40:10: E1101: Instance of 'Trainee' has no 'get_assessment' member (no-member)
 ************* Module task_two
 Level-2/task_two.py:1:0: C0114: Missing module docstring (missing-module-docstring)
 Level-2/task_two.py:19:14: E0602: Undefined variable 'Trainee' (undefined-variable)
