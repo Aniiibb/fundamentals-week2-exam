@@ -4,16 +4,17 @@ rootdir: /home/runner/work/Assessment-Fundamentals-Week-2/Assessment-Fundamental
 collected 9 items / 2 errors
 
 !!!!!!!!!!!!!!!!!!! Interrupted: 2 errors during collection !!!!!!!!!!!!!!!!!!!!
-============================== 2 errors in 0.14s ===============================
+============================== 2 errors in 0.16s ===============================
 ************* Module task_one
+Level-1/task_one.py:15:0: C0325: Unnecessary parens after 'not' keyword (superfluous-parens)
 Level-1/task_one.py:1:0: C0114: Missing module docstring (missing-module-docstring)
 Level-1/task_one.py:4:0: C0115: Missing class docstring (missing-class-docstring)
+Level-1/task_one.py:5:34: W0622: Redefining built-in 'type' (redefined-builtin)
 Level-1/task_one.py:4:0: R0903: Too few public methods (0/2) (too-few-public-methods)
-Level-1/task_one.py:8:0: C0115: Missing class docstring (missing-class-docstring)
-Level-1/task_one.py:18:4: C0116: Missing function or method docstring (missing-function-docstring)
-Level-1/task_one.py:25:4: C0116: Missing function or method docstring (missing-function-docstring)
-Level-1/task_one.py:28:4: C0116: Missing function or method docstring (missing-function-docstring)
-Level-1/task_one.py:36:14: E1120: No value for argument 'assessments' in constructor call (no-value-for-parameter)
+Level-1/task_one.py:20:0: C0115: Missing class docstring (missing-class-docstring)
+Level-1/task_one.py:27:4: C0116: Missing function or method docstring (missing-function-docstring)
+Level-1/task_one.py:34:4: C0116: Missing function or method docstring (missing-function-docstring)
+Level-1/task_one.py:37:4: C0116: Missing function or method docstring (missing-function-docstring)
 ************* Module task_two
 Level-2/task_two.py:1:0: C0114: Missing module docstring (missing-module-docstring)
 Level-2/task_two.py:19:14: E0602: Undefined variable 'Trainee' (undefined-variable)
@@ -33,5 +34,5 @@ Level-3/task_three.py:35:23: W0621: Redefining name 'quiz' from outer scope (lin
 Level-3/task_three.py:33:0: R0903: Too few public methods (0/2) (too-few-public-methods)
 
 ------------------------------------------------------------------
-Your code has been rated at 2.95/10 (previous run: 2.95/10, +0.00)
+Your code has been rated at 4.20/10 (previous run: 4.20/10, +0.00)
 
