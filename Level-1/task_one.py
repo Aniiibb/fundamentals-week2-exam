@@ -25,6 +25,12 @@ class Trainee:
     def add_assessment(self, assessment: Assessment) -> None:
         self.assessments.append(assessment)
 
+    def get_assessment(self, name: str) -> Assessment | None:
+        for assessment in self.assessments:
+            if assessment.name == name:
+                return assessment
+        return None
+
 
 if __name__ == "__main__":
     trainee = Trainee("Sigma", "trainee@sigmalabs.co.uk", date(1990, 1, 1))
