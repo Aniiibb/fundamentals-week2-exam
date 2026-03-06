@@ -1,6 +1,10 @@
 from datetime import date
 
 
+class Assessment:
+    pass
+
+
 class Trainee:
     def __init__(self, name: str, email: str, date_of_birth: date, assessments):
         self.name = name
@@ -17,6 +21,9 @@ class Trainee:
         if (today.month, today.day) < (self.date_of_birth.month, self.date_of_birth.day):
             age -= 1
         return age
+
+    def add_assessment(self, assessment: Assessment) -> None:
+        self.assessments.append(assessment)
 
 
 if __name__ == "__main__":
