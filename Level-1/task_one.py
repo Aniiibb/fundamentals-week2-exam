@@ -1,6 +1,23 @@
 from datetime import date
 
 
+class Trainee:
+    def __init__(self, name: str, email: str, date_of_birth: date, assessments):
+        self.name = name
+        self.email = email
+        self.date_of_birth = date_of_birth
+        if assessments is None:
+            self.assessments = []
+        else:
+            self.assessments = assessments
+
+    def get_age(self) -> int:
+        today = date.today()
+        age = today.year - self.date_of_birth.year
+        if (today.month, today.day) < (self.date_of_birth.month, self.date_of_birth.day):
+            age -= 1
+        return age
+
 
 if __name__ == "__main__":
     trainee = Trainee("Sigma", "trainee@sigmalabs.co.uk", date(1990, 1, 1))
