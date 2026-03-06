@@ -1,10 +1,10 @@
 ============================= test session starts ==============================
 platform linux -- Python 3.14.3, pytest-9.0.2, pluggy-1.6.0
 rootdir: /home/runner/work/Assessment-Fundamentals-Week-2/Assessment-Fundamentals-Week-2
-collected 9 items / 2 errors
+collected 16 items / 1 error
 
-!!!!!!!!!!!!!!!!!!! Interrupted: 2 errors during collection !!!!!!!!!!!!!!!!!!!!
-============================== 2 errors in 0.16s ===============================
+!!!!!!!!!!!!!!!!!!!! Interrupted: 1 error during collection !!!!!!!!!!!!!!!!!!!!
+=============================== 1 error in 0.15s ===============================
 ************* Module task_one
 Level-1/task_one.py:15:0: C0325: Unnecessary parens after 'not' keyword (superfluous-parens)
 Level-1/task_one.py:1:0: C0114: Missing module docstring (missing-module-docstring)
@@ -16,11 +16,24 @@ Level-1/task_one.py:27:4: C0116: Missing function or method docstring (missing-f
 Level-1/task_one.py:34:4: C0116: Missing function or method docstring (missing-function-docstring)
 Level-1/task_one.py:37:4: C0116: Missing function or method docstring (missing-function-docstring)
 ************* Module task_two
+Level-2/task_two.py:20:0: C0325: Unnecessary parens after 'not' keyword (superfluous-parens)
 Level-2/task_two.py:1:0: C0114: Missing module docstring (missing-module-docstring)
-Level-2/task_two.py:19:14: E0602: Undefined variable 'Trainee' (undefined-variable)
-Level-2/task_two.py:22:27: E0602: Undefined variable 'MultipleChoiceAssessment' (undefined-variable)
-Level-2/task_two.py:24:27: E0602: Undefined variable 'TechnicalAssessment' (undefined-variable)
-Level-2/task_two.py:26:27: E0602: Undefined variable 'MultipleChoiceAssessment' (undefined-variable)
+Level-2/task_two.py:9:0: C0115: Missing class docstring (missing-class-docstring)
+Level-2/task_two.py:10:34: W0622: Redefining built-in 'type' (redefined-builtin)
+Level-2/task_two.py:9:0: R0903: Too few public methods (0/2) (too-few-public-methods)
+Level-2/task_two.py:25:0: C0115: Missing class docstring (missing-class-docstring)
+Level-2/task_two.py:32:4: C0116: Missing function or method docstring (missing-function-docstring)
+Level-2/task_two.py:39:4: C0116: Missing function or method docstring (missing-function-docstring)
+Level-2/task_two.py:44:4: C0116: Missing function or method docstring (missing-function-docstring)
+Level-2/task_two.py:50:4: C0116: Missing function or method docstring (missing-function-docstring)
+Level-2/task_two.py:50:37: W0622: Redefining built-in 'type' (redefined-builtin)
+Level-2/task_two.py:69:4: C0116: Missing function or method docstring (missing-function-docstring)
+Level-2/task_two.py:63:0: R0903: Too few public methods (1/2) (too-few-public-methods)
+Level-2/task_two.py:79:4: C0116: Missing function or method docstring (missing-function-docstring)
+Level-2/task_two.py:73:0: R0903: Too few public methods (1/2) (too-few-public-methods)
+Level-2/task_two.py:83:0: C0115: Missing class docstring (missing-class-docstring)
+Level-2/task_two.py:87:4: C0116: Missing function or method docstring (missing-function-docstring)
+Level-2/task_two.py:83:0: R0903: Too few public methods (1/2) (too-few-public-methods)
 ************* Module task_three
 Level-3/task_three.py:1:0: C0114: Missing module docstring (missing-module-docstring)
 Level-3/task_three.py:17:0: C0115: Missing class docstring (missing-class-docstring)
@@ -34,5 +47,5 @@ Level-3/task_three.py:35:23: W0621: Redefining name 'quiz' from outer scope (lin
 Level-3/task_three.py:33:0: R0903: Too few public methods (0/2) (too-few-public-methods)
 
 ------------------------------------------------------------------
-Your code has been rated at 4.20/10 (previous run: 4.20/10, +0.00)
+Your code has been rated at 6.99/10 (previous run: 6.99/10, +0.00)
 
