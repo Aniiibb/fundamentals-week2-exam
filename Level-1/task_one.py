@@ -2,18 +2,27 @@ from datetime import date
 
 
 class Assessment:
-    pass
+    def __init__(self, name: str, type: str, score: float):
+        valid_types = ["multiple-choice", "technical", "presentation"]
+        if not isinstance(name, str):
+            raise TypeError("")
+        self.name = name
+
+        if type not in valid_types:
+            raise ValueError("Not valid assessment type")
+        self.type = type
+
+        if not (0 <= score <= 100):
+            raise ValueError("Score must be between 0 and 100")
+        self.score = score
 
 
 class Trainee:
-    def __init__(self, name: str, email: str, date_of_birth: date, assessments):
+    def __init__(self, name: str, email: str, date_of_birth: date, assessments=None):
         self.name = name
         self.email = email
         self.date_of_birth = date_of_birth
-        if assessments is None:
-            self.assessments = []
-        else:
-            self.assessments = assessments
+        self.assessments = assessments if assessments is not None else []
 
     def get_age(self) -> int:
         today = date.today()
