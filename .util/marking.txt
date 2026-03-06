@@ -4,7 +4,7 @@ rootdir: /home/runner/work/Assessment-Fundamentals-Week-2/Assessment-Fundamental
 collected 9 items / 2 errors
 
 !!!!!!!!!!!!!!!!!!! Interrupted: 2 errors during collection !!!!!!!!!!!!!!!!!!!!
-============================== 2 errors in 0.18s ===============================
+============================== 2 errors in 0.14s ===============================
 ************* Module task_one
 Level-1/task_one.py:1:0: C0114: Missing module docstring (missing-module-docstring)
 Level-1/task_one.py:4:0: C0115: Missing class docstring (missing-class-docstring)
@@ -12,10 +12,8 @@ Level-1/task_one.py:4:0: R0903: Too few public methods (0/2) (too-few-public-met
 Level-1/task_one.py:8:0: C0115: Missing class docstring (missing-class-docstring)
 Level-1/task_one.py:18:4: C0116: Missing function or method docstring (missing-function-docstring)
 Level-1/task_one.py:25:4: C0116: Missing function or method docstring (missing-function-docstring)
-Level-1/task_one.py:30:14: E1120: No value for argument 'assessments' in constructor call (no-value-for-parameter)
-Level-1/task_one.py:38:10: E1101: Instance of 'Trainee' has no 'get_assessment' member (no-member)
-Level-1/task_one.py:39:10: E1101: Instance of 'Trainee' has no 'get_assessment' member (no-member)
-Level-1/task_one.py:40:10: E1101: Instance of 'Trainee' has no 'get_assessment' member (no-member)
+Level-1/task_one.py:28:4: C0116: Missing function or method docstring (missing-function-docstring)
+Level-1/task_one.py:36:14: E1120: No value for argument 'assessments' in constructor call (no-value-for-parameter)
 ************* Module task_two
 Level-2/task_two.py:1:0: C0114: Missing module docstring (missing-module-docstring)
 Level-2/task_two.py:19:14: E0602: Undefined variable 'Trainee' (undefined-variable)
@@ -35,5 +33,5 @@ Level-3/task_three.py:35:23: W0621: Redefining name 'quiz' from outer scope (lin
 Level-3/task_three.py:33:0: R0903: Too few public methods (0/2) (too-few-public-methods)
 
 ------------------------------------------------------------------
-Your code has been rated at 0.00/10 (previous run: 0.00/10, +0.00)
+Your code has been rated at 2.95/10 (previous run: 2.95/10, +0.00)
 
